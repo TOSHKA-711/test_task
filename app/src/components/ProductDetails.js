@@ -8,10 +8,9 @@ export default function ProductDetails() {
         backgroundImage: "url(/p-d-bg.png)",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        minHeight: "30vh", // مبدئياً
+        minHeight: "30vh",
       }}
     >
-      {/* النص الخلفي */}
       <span
         className="
           absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
@@ -27,7 +26,6 @@ export default function ProductDetails() {
         Product Details
       </span>
 
-      {/* الجملة الأمامية */}
       <h1 className="text-xl sm:text-2xl md:text-4xl font-bold z-10 text-black">
         Product Details
       </h1>

@@ -74,7 +74,7 @@ const RegisterPage = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="register w-full h-screen flex items-center justify-center relative max-sm:px-4"
+        className="register w-full h-screen flex items-center justify-center relative max-sm:px-4" 
         style={{ background: "linear-gradient(to left, #EDF4F1, #E3EBF5)" }}
       >
         <Image
@@ -85,7 +85,7 @@ const RegisterPage = () => {
           className="absolute top-4 left-5"
         />
         <div
-          className="card bg-[#fff] flex flex-col items-start pr-6 pl-8 py-8 gap-5 min-w-[450px] rounded-lg max-sm:min-w-[320px]"
+          className="card bg-[#fff] flex flex-col items-start pr-6 pl-8 py-8 gap-5 min-w-[450px] rounded-lg max-sm:min-w-[320px] mt-16"
           style={{ boxShadow: "0px 3.48px 3.48px 0px #00000040" }}
         >
           <span className="flex flex-col items-start gap-1">

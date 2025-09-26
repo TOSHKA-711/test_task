@@ -29,7 +29,6 @@ const LoginPage = () => {
 
   //  handle register
   const handleRegister = () => {
-    showSuccess("Redirect to register page (not implemented)");
     router.push("/src/Auth/register");
   };
 

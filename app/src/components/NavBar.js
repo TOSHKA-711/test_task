@@ -21,7 +21,7 @@ const NavBar = () => {
         <div className="flex items-center gap-10">
           <Image src="/logo1.svg" alt="logo" width={80} height={40} />
 
-          {/* Links (hidden on mobile) */}
+          {/* Links*/}
           <ul className="flex max-2xl:hidden items-center gap-8 text-[#8A8A8A] text-[19px]">
             <li className="flex items-center gap-1 cursor-pointer hover:text-gray-600 duration-300">
               <FaHome /> Home
@@ -47,12 +47,12 @@ const NavBar = () => {
           <IoNotificationsOutline className="cursor-pointer flex max-2xl:hidden" />
           <IoHeartOutline className="cursor-pointer flex max-2xl:hidden" />
 
-          {/* Language Switcher (hidden on mobile) */}
+          {/* Language Switcher */}
           <div className="flex max-2xl:hidden items-center gap-1 text-lg cursor-pointer">
             EN <FaChevronDown size={10} />
           </div>
 
-          {/* Profile (hidden on mobile) */}
+          {/* Profile */}
           <div className="flex max-2xl:hidden items-center gap-1 cursor-pointer">
             <FaRegUser /> <FaChevronDown size={10} />
           </div>
@@ -116,7 +116,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      {/* Overlay (click to close) */}
+      {/* Overlay  */}
       {isOpen && (
         <div
           onClick={() => setIsOpen(false)}
