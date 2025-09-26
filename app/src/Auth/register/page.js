@@ -74,7 +74,7 @@ const RegisterPage = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="register w-full h-screen flex items-center justify-center relative max-sm:px-4" 
+        className="register w-full flex items-center justify-center relative max-sm:px-4 max-sm:min-h-[110vh] max-sm:p-8" 
         style={{ background: "linear-gradient(to left, #EDF4F1, #E3EBF5)" }}
       >
         <Image
