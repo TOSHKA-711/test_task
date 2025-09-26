@@ -46,6 +46,8 @@ const LoginPage = () => {
       showError(
         error?.response?.data?.message || "Login failed. Please try again."
       );
+      console.log(error?.response?.data?.message );
+      
     }
   };
 

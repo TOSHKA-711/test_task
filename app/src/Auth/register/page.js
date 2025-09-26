@@ -45,7 +45,6 @@ const RegisterPage = () => {
   };
 
   const handleBackToLogin = () => {
-    showSuccess("Redirecting to login page");
     router.push("/src/Auth/login");
   };
 
